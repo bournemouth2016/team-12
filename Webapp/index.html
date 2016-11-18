@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+.flex-container-top {
+    display: -webkit-flex;
+    display: flex;
+    max-width: 1080px;
+    height: 260px;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: lightgrey;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.flex-item {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 420px;
+    margin: 0px;
+}
+
+.flex-item.top {
+  height: 250px;
+  width: 420px;
+  margin: 0 0 10px;
+  background-color: red;
+}
+
+.flex-item.left {
+  height: 420px;
+  width: 250px;
+  background-color: red;
+}
+
+.flex-item.middle {
+  height: 250px;
+  width: 420px;
+  margin: 10px;
+  background-color: red;
+}
+
+.flex-item.right {
+  height: 420px;
+  width: 250px;
+  background-color: red;
+}
+
+.flex-item.bottom {
+  height: 420px;
+  width: 420px;
+  background-color: red;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="flex-container-top">
+  <div class="flex-item top"></div>
+
+</div>
+<div class="flex-container-middle">
+  <div class="flex-item left"></div>
+  <div class="flex-item middle"></div>
+  <div class="flex-item right"></div> 
+</div>
+<div class="flex-container-bottom">
+  <div class="flex-item bottom"></div>
+
+</div>
+
+</body>
+</html>
