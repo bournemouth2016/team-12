@@ -198,8 +198,8 @@ tr td {
   width: 25%;
 }
 
-td.tableHead {font-size: 20px; color: #000000}
-td.tableSub {width: 75%;font-size: 15px; color: #666666}
+td.tableHead {font-size: 26px; color: #000}
+td.tableSub {width: 75%;font-size: 26px; color: #000}
 
 
 .onoffswitch,
