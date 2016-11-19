@@ -1,0 +1,32 @@
+Nav Tree
+
+Home
+POI
+    Reception
+    Toilet
+    Nearest Exit
+    More
+        Cafe
+        
+Settings
+    Rerun Setings
+        Level of Sight
+        Access Health Data
+            Stride Lenght
+            Emergancy Contact        
+    Voice Speed
+    Volume
+    More
+        Sound & Alerts
+            Voice Sex
+            Vibration Level
+            Frequency
+            Sleep Screen
+        Customised Promts
+            Left Turn
+            Right Turn
+            Stop
+            Compass
+SOS 
+
+                
