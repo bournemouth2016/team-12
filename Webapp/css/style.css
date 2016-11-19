@@ -147,6 +147,16 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.menus-container.map {
+  overflow: hidden;
+}
+
+.menus-container.map .map {
+  max-width: 200%;
+  margin: -30px 0 0 -50%; 
+  height: auto;
+  overflow: hidden;
+}
 /* ===== SETTINGS PAGE ==== */
 
 table {
