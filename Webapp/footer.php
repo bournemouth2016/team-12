@@ -1,3 +1,7 @@
+<div class="home-button-container">
+  <div class="home-button"><i class="demo-icon icon-home">&#xe800;</i></div>
+</div>
+
 </body>
       <script type = "text/javascript">
           function displayNextImage() {
@@ -15,14 +19,18 @@
           }
 
           var images = [], x = -1;
-            images[0] = "images/nav1.png";
-            images[1] = "images/nav2.png";
-            images[2] = "images/nav3.png";
-            images[3] = "images/nav4.png";
-            images[4] = "images/nav5.png";
-            images[5] = "images/nav6.png";
-            images[6] = "images/nav7.png";
-            images[7] = "images/nav8.png";          
+            images[0] = "images/nav01.png";
+            images[1] = "images/nav02.png";
+            images[2] = "images/nav03.png";
+            images[3] = "images/nav04.png";
+            images[4] = "images/nav05.png";
+            images[5] = "images/nav06.png";
+            images[6] = "images/nav07.png";
+            images[7] = "images/nav08.png";
+            images[4] = "images/nav09.png";
+            images[5] = "images/nav10.png";
+            images[6] = "images/nav11.png";
+            images[7] = "images/nav12.png";                      
       </script>
 
 </html>
