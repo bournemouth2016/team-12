@@ -15,7 +15,7 @@
 </div>
 
 <div class="home-bottom-container">
-  <a href="poe.php"><div class="home-bottom"><i class="demo-icon smaller icon-map-pin">&#xf276;</i></div></a>
+  <a href="poi.php"><div class="home-bottom"><i class="demo-icon smaller icon-map-pin">&#xf276;</i></div></a>
 </div>
 
 <?php include 'footer.php';?>
