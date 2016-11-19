@@ -7,8 +7,23 @@
 <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 <script>
 $(document).on("pagecreate","#pageone",function(){
-  $("p").on("swipe",function(){
-    $(this).hide();
+  $("#up").on("swipe",function(){//"up" can be replaced with the selector
+    window.location.href = './reception.html';
+  });                       
+});
+$(document).on("pagecreate","#pageone",function(){
+  $("#left").on("swipe",function(){
+    window.location.href = './nearest.html';
+  });                       
+});
+$(document).on("pagecreate","#pageone",function(){
+  $("#right").on("swipe",function(){
+    window.location.href = './toilet.html';
+  });                       
+});
+$(document).on("pagecreate","#pageone",function(){
+  $("#down").on("swipe",function(){
+    window.location.href = './more.html';
   });                       
 });
 </script>
@@ -21,9 +36,10 @@ $(document).on("pagecreate","#pageone",function(){
   </div>
 
   <div data-role="main" class="ui-content">
-    <p>If you swipe me, I will disappear.</p>
-    <p>Swipe me away!</p>
-    <p>Swipe me too!</p>
+    <p id="up">Reception</p>
+    <p id="left">Nearest</p>
+    <p id="right">Toilet</p>
+    <p id="down">More</p>
   </div>
 
   <div data-role="footer">
